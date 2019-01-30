@@ -3,10 +3,10 @@ require "FileUtils"
 class Envelope < Formula
   homepage "https://github.com/mikesimons/envelope"
 
-  $v = "v0.1.0"
+  $v = "v0.2.0"
   url "https://github.com/mikesimons/envelope/releases/download/#{$v}/envelope-#{$v}-darwin-amd64"
   version $v
-  sha256 "235317c7a0b63fc727ad819d12477a8075a8a1f13d799d34f87c332a0041448c"
+  sha256 "33617868cf59aa1081c2520b210bc2eed611eaeec65850bc25e04dfec02faaa6"
 
   def install
     FileUtils.mv("envelope-#{$v}-darwin-amd64", "envelope")

@@ -3,10 +3,10 @@ require "FileUtils"
 class Kpatch< Formula
   homepage "https://github.com/mikesimons/kpatch"
 
-  $v = "v0.1.0"
+  $v = "v0.2.0"
   url "https://github.com/mikesimons/kpatch/releases/download/#{$v}/kpatch-#{$v}-darwin-amd64"
   version $v
-  sha256 "715f2f6a58734b1f04f5d1cf3fa65060b1ff2884fa27373a1ba8e3cd40ba47b0"
+  sha256 "035a8e80d074f37b86da42d1dd07583068226d1362ead4c2634000962443834f"
 
   def install
     FileUtils.mv("kpatch-#{$v}-darwin-amd64", "kpatch")
